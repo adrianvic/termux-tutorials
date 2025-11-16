@@ -3,5 +3,7 @@ This is a repository of tutorials of how to do random stuff on Termux. Decided t
 
 You can download plain Markdown files by cloning the [GitHub repo](https://github.com/adrianvic/termux-tutorials) or check the [GitHub Pages website](https://adrianvic.github.io/termux-tutorials) made with Jekyll.
 
+If you're in the website, you will probably want to see the [Tutorial Listing](https://adrianvic.github.io/termux-tutorials/tutorials/) page.
+
 ## Contributing
 Feel free to contribute to the repo.
