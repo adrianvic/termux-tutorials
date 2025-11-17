@@ -15,8 +15,10 @@ The vanilla Minecraft server lacks optimizations, which are usually present in p
 |  Name  |  Type  |  Performance  |  Notes  |
 |----|----|----|----|
 |  Vanilla  |  No mods/plugins  |  Lacks optimizations  |    |
-|  Purpur  |  Plugins  |  Optimizations over PaperMC  |  Compatible with PaperMC but has more features  |
-|  PaperMC  |  Plugins  |  Standard optimizations  |  Compatible with Bukkit  |
+|  Purpur  |  Plugins  |  Applies Pufferfish optimizations  |  Fork of - thus compatible with - PaperMC with patches from Pufferfish and a lot of other features  |
+|  Pufferfish  |  Plugins  |  Enterprise grade performance  |  Designed for large enterprise servers, fork of - thus compatible with - PaperMC  |
+|  PaperMC  |  Plugins  |  Standard optimizations  |  Fork of - thus compatible with - Bukkit  |
+|  Spigot  |  Plugins  |  Better than Bukkit  |  Not used too much anymore as PaperMC and it's forks are generally better  |
 |  Bukkit/CraftBukkit  |  Plugins  |  Better than vanilla, worse than other plugin loaders  |  Foundation of Minecraft plugins  |
 |  Project Poseidon  |  Plugins  |  Better than CraftBukkit  |  A fork of CraftBukkit for beta 1.7.3, adds a lot of features. Works with existing CraftBukkit plugins. |
 |  UberBukkit  |  Plugins  |  Probably the same as Poseidon  |  A fork of Project Poseidon, adds backward compatibility  |
