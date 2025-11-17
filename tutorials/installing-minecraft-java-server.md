@@ -1,3 +1,4 @@
+# Installing Minecraft: Java Edition Server
 Minecraft is so popular that it feels like after installing Termux, the temptation to get a Minecraft server up and running is natural. Whether you're going to host your server on a phone, or you are just inaugurating your phone server and want to see it in action, this guide should cover your use case. Although older versions can be lightweight, be aware that newer versions of Minecraft server demand a beefy amount of computation and RAM.
 
 ## Requirements
@@ -10,6 +11,7 @@ Also for newer versions you'll need a good amount of RAM and CPU power.
 
 ## Choosing a version/loader
 The vanilla Minecraft server lacks optimizations, which are usually present in plugin/modloaders, you should usually avoid using that.
+
 |  Name  |  Type  |  Performance  |  Notes  |
 |----|----|----|----|
 |  Vanilla  |  No mods/plugins  |  Lacks optimizations  |    |
