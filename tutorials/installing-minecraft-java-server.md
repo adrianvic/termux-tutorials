@@ -41,7 +41,7 @@ Place the server JAR file inside a dedicated folder, it will create it's folder 
 
 Start the server with the command `java -Xmx 1024M -Xms 512M -jar server.jar` , replace `server.jar` with your actual file name, the `Xmx` and `Xms` arguments control the server maximum and the initial RAM allocation. The initial RAM allocation still needs to be an amount enough for the server to run, otherwise the server will crash before it can allocate more.
 
-On the first run, the server will probably ask you to change `server.properties`, that's because you need to accept the Minecraft server End User License Agreement (EULA). We'll use the trip to also configure the server in the same file, you can generate one preconfigured with [this generator](https://mctools.org/server-properties-creator). If you want to proceed without configuring the server, just set `eula=true`.
+On the first run, the server will probably ask you to change `eula.txt`, that's because you need to accept the Minecraft server End User License Agreement (EULA). We'll use the trip to also configure the server in a file named `server.properties`, which uses similar syntax. You can generate one preconfigured with [this generator](https://mctools.org/server-properties-creator). If you want to proceed without configuring the server, just accept the EULA.
 
 ## Managing the server after first run
 Just running the server probably isn't enough for you. You probably need to keep the server running after a SSH session ends, or get back to console after detaching the server from your session.
@@ -112,7 +112,7 @@ done
 ```bash
 #!/data/data/com.termux/files/usr/bin/sh
 
-touch ~/.remix-stop # Creating the magic file
+touch ~/.srv-stop # Creating the magic file
 mcrcon -P 25575 -p 'your_rcon_password' stop
 ```
 
